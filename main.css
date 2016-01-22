@@ -1,0 +1,27 @@
+.bigbutton {
+	height:500px;
+	width:500px;
+	margin-left: 300px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    font-size: 50px;
+}
+.pagepadding {
+	margin:auto;
+}
+.fixedbox {
+	height:300px;
+	width:450px;
+	border-style:solid;
+	background-color:#aa4466;
+	position: fixed;
+	top:263px;
+	right:328px;
+	text-align:center;
+}
+.close {
+	height:50px;
+	width:75px;
+	border-style:solid;
+	background-color:lightgrey;
+}

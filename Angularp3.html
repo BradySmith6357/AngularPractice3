@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="mainModule">
+<head>
+	<title>Angular3</title>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.js"></script>
+	<script type="text/javascript" src="angular.js"></script>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body class= "pagepadding" ng-controller="mainTroller">
+	<div>
+		<button class= "bigbutton" ng-click="popup()">CLICK ME!!!!</button>
+			<div class= "fixedbox" ng-show="hidden">
+				<p >Don't you wish you could get rid of me!</p>
+					<button class= "close" ng-click="closebox()">Close Window</button>
+			</div>
+	</div>
+
+</body>
